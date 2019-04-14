@@ -13,7 +13,7 @@ class App extends Component {
 
       <Header />
 
-      <div className="row">
+      <div className="row content">
 
           <div className="col col-lg-2">
 

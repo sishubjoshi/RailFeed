@@ -8,7 +8,7 @@ const Review = () => {
             <textarea className="form-control review-input" rows="4" />
 
             <div className="text-center mt-3">
-                <input type="submit" className="btn btn-warning btn-block" value="Categorize" />
+                <input type="submit" className="btn btn-warning btn-block" value="Analyze" />
             </div>
             
       </form>
