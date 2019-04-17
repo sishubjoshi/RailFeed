@@ -1,7 +1,6 @@
 import pickle
 import os
-CUR_DIR = os.path.dirname(__file__)
-
+from util import CUR_DIR
 clf = pickle.load(open(os.path.join(CUR_DIR,
                  'pickles',
                  'classifier.pickle'), 'rb'))
