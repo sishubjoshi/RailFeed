@@ -7,36 +7,18 @@ import Test from './components/Test';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
+	render() {
+		return (
+			<div className="App">
+				<Header />
 
-      <Header />
-
-      <div className="row content">
-
-          <div className="col col-lg-2">
-
-              <Sidenav />
-
-          </div>
-          <div className="col">
-
-            <Switch>
-                <Route exact path = '/' component={Test} />
-                <Route path = '/review' component={Review} />
-            </Switch>
-
-          </div>
-
-      </div>
-
-     
-        
-
-      </div>
-    );
-  }
+				<Switch>
+					<Route exact path="/" component={Test} />
+					<Route path="/review" component={Review} />
+				</Switch>
+			</div>
+		);
+	}
 }
 
 export default App;
